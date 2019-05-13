@@ -1,0 +1,35 @@
+html{
+    background-image: url("../images/dogBackground.jpg");
+    background-size: 100%; 
+    
+}
+
+.main-content{
+    background-color: lightgrey;
+    width: 75%;
+    margin: auto; 
+
+}
+h1 {
+    text-align: center;
+    color: purple; 
+}
+
+#time-left {
+    font-family: monospace; 
+    font-size: 20px; 
+    color: black; 
+    text-align: center; 
+}
+
+#display {
+    font-family: monospace;
+    font-size: 20px;
+    color: #42C0FB;
+  
+    /* Typography */
+    text-align: center;
+  
+    /* Visual */
+    background: black;
+  }

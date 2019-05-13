@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            
+            
+            <!-- CSS -->
+            <link rel="stylesheet" href="assets/css/style.css">
+            
+            <!-- jQuery -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+            <!-- Script -->
+            <script src="assets/javascript/app.js"></script>
+
+
+    </head>
+    <body>
+            <div class="container">
+                     
+                <div class="main-content">
+                    <h1>Awesome Dog Trivia</h1>
+
+                    <div id="time-left">
+                            <div>Time left: <span id="display">00:20</span></div>
+                    </div>
+
+                    <div class="questions"></div>
+        
+                </div>
+                        
+            </div>
+
+            <script>
+
+            // window.onload = function(){
+            //     startClock();
+            //     setTimeout(stopClock, 15000);
+            // };
+                
+            // var intervalId;
+            // var clockRunning = false;
+            // var time = 15;
+            
+
+            // function startClock() {
+            //     if (!clockRunning) {
+            //         intervalId = setInterval(count, 1000);
+            //         clockRunning = true; 
+            //     }
+            // }
+            // function stopClock(){
+            //     clearInterval(intervalId);
+            //     clockRunning = false; 
+            //     alert("Time's up!");
+            //     gradePage();
+            // }
+            
+            // function count() {
+            //     time--;
+            //     var converted = timeConverter(time);
+            //     $("#display").text(converted);
+            //     if (time === 0){
+            //         clockRunning = false;
+            //     }
+            // }
+
+
+
+            // function timeConverter(t) {
+
+            //     var minutes = Math.floor(t / 60);
+            //     var seconds = t - (minutes * 60);
+
+            //     if (seconds < 10) {
+            //         seconds = "0" + seconds;
+            //      }
+
+            //     if (minutes === 0) {
+            //         minutes = "00";
+            //     }
+            //     else if (minutes < 10) {
+            //         minutes = "0" + minutes;
+            //     }
+
+            //     return minutes + ":" + seconds;
+            // }
+            </script>
+        
+        
+    </body>
+</html>
