@@ -10,4 +10,4 @@ The game ends when the time runs out. The page will reveal the number of questio
 
 The player may not pick more than one answer per question.
 
-
+https://tjames02.github.io/TriviaGame/
